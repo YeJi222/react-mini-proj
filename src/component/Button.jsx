@@ -16,7 +16,7 @@ function Button(props){
     // 사용자 입력으로 title과 onClick 함수를 입력 받음
     const {title, onClick} = props;
 
-    return <StyledButton onClick={onClick}> {title || "button"} </StyledButton>
+    return <StyledButton onClick={onClick}> {title || "button"} </StyledButton>;
 }
 
 export default Button;
