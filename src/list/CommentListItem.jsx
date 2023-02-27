@@ -27,7 +27,7 @@ function CommentListItem(props){
     const {comment} = props;
 
     return(
-        <Wrapper onClick={onClick}>
+        <Wrapper>
             <ContentText>{comment.content}</ContentText>
         </Wrapper>
     );

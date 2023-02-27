@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import PostListItem from "PostListItem";
 import CommentListItem from "./CommentListItem";
 
 const Wrapper = styled.div`
